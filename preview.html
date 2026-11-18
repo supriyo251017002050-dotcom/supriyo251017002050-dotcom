@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Preview - Supriyo Hara</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-container {
+      max-width: 960px;
+      width: 100%;
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .header-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #21262d;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: #8b949e;
+      font-size: 14px;
+    }
+    .table-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .badge-row {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 16px 0;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 24px;
+      text-align: left;
+    }
+    .project-card {
+      border: 1px solid #30363d;
+      background: #161b22;
+      border-radius: 8px;
+      padding: 16px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .project-card:hover {
+      border-color: #00f0ff;
+      transform: translateY(-2px);
+    }
+    .project-card h4 {
+      margin: 0 0 8px 0;
+      color: #58a6ff;
+    }
+    .project-card p {
+      font-size: 13px;
+      color: #8b949e;
+      margin: 0 0 12px 0;
+      line-height: 1.5;
+    }
+    .project-card code {
+      background: #21262d;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+      color: #7ee787;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="header-bar">
+      <span>📁 supriyo251017002050-dotcom / <strong>README.md</strong></span>
+    </div>
+
+    <div style="text-align: center;">
+      <!-- Terminals Table -->
+      <div class="table-container">
+        <img src="./avi-ascii.svg" width="430" alt="ASCII Portrait Terminal" style="max-width: 100%; height: auto;" />
+        <img src="./info-card.svg" width="490" alt="Info Card Terminal" style="max-width: 100%; height: auto;" />
+      </div>
+
+      <h1 style="color: #f0f6fc; font-size: 26px; margin: 16px 0 6px 0;">⚡ Supriyo Hara</h1>
+      <p style="font-size: 15px; color: #8b949e; margin: 0 0 16px 0;">
+        <strong style="color: #c9d1d9;">BCA in Data Science & AI · Techno India University, Kolkata</strong><br>
+        <span style="font-style: italic;">Building intelligent computer vision systems, generative AI architectures, and neural workflows.</span>
+      </p>
+
+      <!-- Action Badges -->
+      <div class="badge-row">
+        <a href="https://asthasingh29.github.io/soul-connector/" target="_blank">
+          <img src="https://img.shields.io/badge/Project%20Portfolio-Team%20EUREKA-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+        </a>
+        <a href="mailto:supriyo251017002050@technoindiaeducation.com">
+          <img src="https://img.shields.io/badge/Email-Get%20In%20Touch-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="https://technoindiauniversity.ac.in" target="_blank">
+          <img src="https://img.shields.io/badge/TIU-Kolkata-10b981?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Techno India" />
+        </a>
+      </div>
+
+      <!-- Tech stack -->
+      <div class="badge-row">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+      </div>
+
+      <!-- Contribution Heatmap -->
+      <div style="margin: 24px 0;">
+        <img src="./contrib-heatmap.svg" width="860" alt="GitHub Contribution Heatmap Terminal" style="max-width: 100%; height: auto;" />
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>🛡️ <a href="https://github.com/supriyo251017002050-dotcom/ClimateGuard-AI">ClimateGuard AI</a></h4>
+          <p>An intelligent environmental risk analysis & multi-hazard intelligence engine integrating predictive algorithms for real-time risk assessment.</p>
+          <code>Python</code> <code>Vite / React</code> <code>FastAPI</code>
+        </div>
+        <div class="project-card">
+          <h4>🏟️ <a href="https://github.com/supriyo251017002050-dotcom/Manage-crowd">Manage-Crowd (FIFA 2026)</a></h4>
+          <p>Next-gen stadium safety platform powered by Generative AI, computer vision density estimation, and real-time transit & safety analytics.</p>
+          <code>Computer Vision</code> <code>GenAI</code> <code>Real-Time Analytics</code>
+        </div>
+        <div class="project-card">
+          <h4>🌌 <a href="https://github.com/supriyo251017002050-dotcom/memora-vr-portfolio">Memora VR</a></h4>
+          <p>Digital memorial simulation VR experience built with Team EUREKA to explore sensory preservation and immersive virtual spaces.</p>
+          <code>Virtual Reality</code> <code>Web3D</code> <code>Team EUREKA</code>
+        </div>
+        <div class="project-card">
+          <h4>🤖 <a href="https://github.com/supriyo251017002050-dotcom/BCA2A-Attendance-Bot">BCA2A Attendance Bot</a></h4>
+          <p>Automated Telegram attendance tracking & record management bot deployed for Techno India University class operations.</p>
+          <code>Python</code> <code>Telegram API</code> <code>Automation</code>
+        </div>
+      </div>
+
+      <div style="margin-top: 32px; font-family: ui-monospace, monospace; font-size: 12px; color: #58a6ff;">
+        <code>[status] Online &amp; exploring cutting-edge LLMs, Computer Vision architectures &amp; AI agents.</code>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

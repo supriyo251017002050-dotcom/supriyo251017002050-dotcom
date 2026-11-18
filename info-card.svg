@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="390" viewBox="0 0 490 390" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal Chassis -->
+  <rect width="490" height="390" rx="12" fill="url(#termBg)"/>
+  <rect x="0.5" y="0.5" width="489" height="389" rx="12" fill="none" stroke="url(#borderGlow)" stroke-width="1"/>
+  <line x1="0" y1="32" x2="490" y2="32" stroke="#1e293b"/>
+
+  <!-- Window Buttons -->
+  <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="16" r="5" fill="#27c93f"/>
+  <text x="245.0" y="20" fill="#94a3b8" font-size="12" text-anchor="middle">supriyo@github: ~$ neofetch --specs</text>
+  <g transform="translate(0, 4)">
+<text x="22" y="58.0" font-size="22" font-weight="800" fill="#00ff9d">
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.01s" fill="freeze"/>S</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.10s" dur="0.01s" fill="freeze"/>u</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.14s" dur="0.01s" fill="freeze"/>p</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.18s" dur="0.01s" fill="freeze"/>r</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.23s" dur="0.01s" fill="freeze"/>i</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.01s" fill="freeze"/>y</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.32s" dur="0.01s" fill="freeze"/>o</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.41s" dur="0.01s" fill="freeze"/>H</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.01s" fill="freeze"/>a</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.01s" fill="freeze"/>r</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.01s" fill="freeze"/>a</tspan>
+</text>
+<text x="22" y="80.0" font-size="12" font-weight="500" fill="#38bdf8">
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.01s" fill="freeze"/>D</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.49s" dur="0.01s" fill="freeze"/>a</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.01s" fill="freeze"/>t</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.01s" fill="freeze"/>a</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.01s" fill="freeze"/>S</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.01s" fill="freeze"/>c</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.77s" dur="0.01s" fill="freeze"/>i</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.81s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.01s" fill="freeze"/>n</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.01s" fill="freeze"/>c</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.03s" dur="0.01s" fill="freeze"/>&amp;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.08s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.01s" fill="freeze"/>A</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur="0.01s" fill="freeze"/>I</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.22s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.01s" fill="freeze"/>•</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.01s" fill="freeze"/>C</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.01s" fill="freeze"/>o</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.44s" dur="0.01s" fill="freeze"/>m</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.48s" dur="0.01s" fill="freeze"/>p</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.53s" dur="0.01s" fill="freeze"/>u</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.57s" dur="0.01s" fill="freeze"/>t</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.62s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.66s" dur="0.01s" fill="freeze"/>r</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.71s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.01s" fill="freeze"/>V</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.80s" dur="0.01s" fill="freeze"/>i</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.84s" dur="0.01s" fill="freeze"/>s</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.89s" dur="0.01s" fill="freeze"/>i</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.93s" dur="0.01s" fill="freeze"/>o</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.98s" dur="0.01s" fill="freeze"/>n</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.02s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.07s" dur="0.01s" fill="freeze"/>•</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.12s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.16s" dur="0.01s" fill="freeze"/>I</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.21s" dur="0.01s" fill="freeze"/>n</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.25s" dur="0.01s" fill="freeze"/>t</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.29s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.34s" dur="0.01s" fill="freeze"/>l</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.38s" dur="0.01s" fill="freeze"/>l</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.43s" dur="0.01s" fill="freeze"/>i</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.48s" dur="0.01s" fill="freeze"/>g</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.52s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.56s" dur="0.01s" fill="freeze"/>n</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.61s" dur="0.01s" fill="freeze"/>t</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.66s" dur="0.01s" fill="freeze"/>&#160;</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.70s" dur="0.01s" fill="freeze"/>S</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.75s" dur="0.01s" fill="freeze"/>y</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.79s" dur="0.01s" fill="freeze"/>s</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.83s" dur="0.01s" fill="freeze"/>t</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.88s" dur="0.01s" fill="freeze"/>e</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.93s" dur="0.01s" fill="freeze"/>m</tspan>
+<tspan opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.97s" dur="0.01s" fill="freeze"/>s</tspan>
+</text>
+  <text x="22" y="106.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">education: </tspan>
+    <tspan fill="#e2e8f0">BCA in Data Science &amp; AI</tspan>
+  </text>
+  <text x="22" y="126.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">university: </tspan>
+    <tspan fill="#e2e8f0">Techno India University, Kolkata</tspan>
+  </text>
+  <text x="22" y="146.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">domain: </tspan>
+    <tspan fill="#e2e8f0">Computer Vision • Generative AI • Deep Learning</tspan>
+  </text>
+  <text x="22" y="166.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">languages: </tspan>
+    <tspan fill="#e2e8f0">Python • JavaScript • TypeScript • SQL • C++</tspan>
+  </text>
+  <text x="22" y="186.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">stack: </tspan>
+    <tspan fill="#e2e8f0">PyTorch • OpenCV • TensorFlow • React • Node.js</tspan>
+  </text>
+  <text x="22" y="206.0" font-size="12" font-weight="500">
+    <tspan fill="#00f0ff" font-weight="600">highlights: </tspan>
+    <tspan fill="#e2e8f0">ClimateGuard AI • FIFA Crowd Vision • Memora VR</tspan>
+  </text>
+  <text x="22" y="236.0" font-size="12" font-weight="700" fill="#f8fafc">skills</text>
+  <text x="22" y="253.0" font-size="11" fill="#94a3b8">Python / AI</text>
+  <rect x="122" y="245.0" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="122" y="245.0" width="131" height="7" rx="3.5" fill="url(#barGrad)"/>
+  <text x="272" y="253.0" font-size="11" fill="#38bdf8" font-weight="600">94%</text>
+  <text x="22" y="271.0" font-size="11" fill="#94a3b8">Machine Learning</text>
+  <rect x="122" y="263.0" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="122" y="263.0" width="126" height="7" rx="3.5" fill="url(#barGrad)"/>
+  <text x="272" y="271.0" font-size="11" fill="#38bdf8" font-weight="600">90%</text>
+  <text x="22" y="289.0" font-size="11" fill="#94a3b8">Computer Vision</text>
+  <rect x="122" y="281.0" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="122" y="281.0" width="123" height="7" rx="3.5" fill="url(#barGrad)"/>
+  <text x="272" y="289.0" font-size="11" fill="#38bdf8" font-weight="600">88%</text>
+  <text x="22" y="307.0" font-size="11" fill="#94a3b8">Full-Stack Dev</text>
+  <rect x="122" y="299.0" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="122" y="299.0" width="114" height="7" rx="3.5" fill="url(#barGrad)"/>
+  <text x="272" y="307.0" font-size="11" fill="#38bdf8" font-weight="600">82%</text>
+  <text x="22" y="372.0" fill="#64748b" font-size="11">github.com/supriyo251017002050-dotcom</text>
+  </g>
+</svg>
