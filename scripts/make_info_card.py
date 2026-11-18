@@ -8,22 +8,22 @@ import sys
 
 # ===== CONFIGURATION =====
 NAME = "Supriyo Hara"
-SUBTITLE = "Data Science & AI • Computer Vision • Intelligent Systems"
+SUBTITLE = "Data Science & AI • Problem Solving • Computer Vision"
 
 ROWS = [
     ("Education", "BCA in Data Science & AI"),
     ("University", "Techno India University, Kolkata"),
-    ("Domain", "Computer Vision • Generative AI • Deep Learning"),
-    ("Languages", "Python • JavaScript • TypeScript • SQL • C++"),
-    ("Stack", "PyTorch • OpenCV • TensorFlow • React • Node.js"),
+    ("Focus", "Complex Problem Solving • Computer Vision • AI"),
+    ("Languages", "Python • C++ • JavaScript • TypeScript • SQL"),
+    ("Stack", "PyTorch • OpenCV • TensorFlow • React • Algorithms"),
     ("Highlights", "ClimateGuard AI • FIFA Crowd Vision • Memora VR"),
 ]
 
 PROGRESS = [
+    ("Logic & Algorithms", 96),
     ("Python / AI", 94),
-    ("Machine Learning", 90),
     ("Computer Vision", 88),
-    ("Full-Stack Dev", 82),
+    ("Full-Stack & APIs", 82),
 ]
 
 HOST = "github.com/supriyo251017002050-dotcom"
@@ -72,11 +72,12 @@ def create_info_card(output_path=OUTPUT_FILE):
         '    </linearGradient>',
         '    <linearGradient id="borderGlow" x1="0" y1="0" x2="1" y2="1">',
         '      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.5"/>',
-        '      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.25"/>',
+        '      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>',
         '      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.4"/>',
         '    </linearGradient>',
         '    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">',
         '      <stop offset="0%" stop-color="#06b6d4"/>',
+        '      <stop offset="50%" stop-color="#818cf8"/>',
         '      <stop offset="100%" stop-color="#00ff9d"/>',
         '    </linearGradient>',
         '  </defs>',
@@ -117,9 +118,9 @@ def create_info_card(output_path=OUTPUT_FILE):
         bar_width = int(140 * pct / 100)
         svg.extend([
             f'  <text x="{PADDING}" y="{bar_y:.1f}" font-size="11" fill="#94a3b8">{escape_xml(name)}</text>',
-            f'  <rect x="{PADDING + 100}" y="{bar_y - 8:.1f}" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>',
-            f'  <rect x="{PADDING + 100}" y="{bar_y - 8:.1f}" width="{bar_width}" height="7" rx="3.5" fill="url(#barGrad)"/>',
-            f'  <text x="{PADDING + 250}" y="{bar_y:.1f}" font-size="11" fill="#38bdf8" font-weight="600">{pct}%</text>',
+            f'  <rect x="{PADDING + 120}" y="{bar_y - 8:.1f}" width="140" height="7" rx="3.5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>',
+            f'  <rect x="{PADDING + 120}" y="{bar_y - 8:.1f}" width="{bar_width}" height="7" rx="3.5" fill="url(#barGrad)"/>',
+            f'  <text x="{PADDING + 270}" y="{bar_y:.1f}" font-size="11" fill="#38bdf8" font-weight="600">{pct}%</text>',
         ])
 
     # Watermark Footer
